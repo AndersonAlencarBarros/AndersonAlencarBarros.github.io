@@ -9,7 +9,7 @@ import { GeistProvider, CssBaseline } from "@geist-ui/core";
 
 // Router
 import { BrowserRouter as Router } from "react-router-dom";
-
+ 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
@@ -22,7 +22,6 @@ root.render(
 		</GeistProvider>
 	</React.StrictMode>
 );
-
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

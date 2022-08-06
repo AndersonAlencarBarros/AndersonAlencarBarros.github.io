@@ -1,11 +1,19 @@
-import React from 'react'
-  
+import React from "react";
 
-function Post() {  
+import { condaHTML } from "../posts/conda.js";
+import "../assets/typora-css.css";
+import { POSTS } from "../assets/posts.js";
 
-  return (
-    <div>Post</div>
-  )
+function Post() {
+  const HtmlToReactParser = require("html-to-react").Parser;
+	const htmlToReactParser = new HtmlToReactParser();
+	const reactElement = htmlToReactParser.parse(condaHTML);
+
+	return (
+		<>
+			{reactElement}
+		</>
+	);
 }
 
-export default Post
+export default Post;

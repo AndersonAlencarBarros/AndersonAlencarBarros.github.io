@@ -10,7 +10,7 @@ function About() {
 				Sobre
 			</Text>
 
-			<section className="container fs-5 col-sm-6">
+			<div className="container fs-4 col-12 col-md-6">
 				<Text p>
 					Pernambucano, graduando em Engenharia da Computação e
 					desenvolvedor, curioso, introvertido e fã dos Senhor dos
@@ -22,10 +22,14 @@ function About() {
 					Inteligência Artificial, Ciência de Dados e Engenharia de
 					Dados, Linux e IOT.
 				</Text>
-			</section>
+			</div>
 
-			<section className="container display-3">
-				<div className="my-4">
+			<section className="container-fluid display-3">
+			<Text h1 className="fs-1">
+				Tecnologias
+			</Text>
+
+				<div className="my-3">
 					<Text h3>Python</Text>
 					<div className="row">
 						<div className="col-4 col-md-1">
@@ -49,7 +53,7 @@ function About() {
 					</div>
 				</div>
 
-				<div className="my-4">
+				<div className="my-3">
 					<Text h3>Desenvolvimento Web</Text>
 					<div className="row">
 						<div className="col-4 col-md-1">
@@ -73,7 +77,7 @@ function About() {
 					</div>
 				</div>
 
-				<div className="my-4">
+				<div className="my-3">
 					<Text h3>Java</Text>
 					<div className="row">
 						<div className="col-4 col-md-1">
@@ -88,22 +92,27 @@ function About() {
 					</div>
 				</div>
 
-				<div className="my-4">
-					<Text h3>Linux e C/C++ </Text>
+				<div className="my-3">
+					<Text h3>Linux, Arduino e C/C++ </Text>
 					<div className="row">
-						<div className="col-4 col-md-1">
+						<div className="col-5 col-md-1">
 							<i className="devicon-linux-plain colored"></i>
 						</div>
-						<div className="col-4 col-md-1">
+            <div className="col-5 col-md-1">
+							<i className="devicon-arduino-plain-wordmark colored"></i>
+						</div>
+						<div className="col-5 col-md-1">
 							<i className="devicon-c-plain-wordmark colored"></i>
 						</div>
-						<div className="col-4 col-md-1">
+						<div className="col-5 col-md-1">
 							<i className="devicon-cplusplus-plain-wordmark colored"></i>
 						</div>
+
+						
 					</div>
 				</div>
 
-				<div className="my-4">
+				<div className="my-3">
 					<Text h3>Git e Github</Text>
 					<div className="row">
 						<div className="col-4 col-md-1">
@@ -115,7 +124,7 @@ function About() {
 					</div>
 				</div>
 
-				<div className="my-4">
+				<div className="my-3">
 					<Text h3>Markdown e LateX</Text>
 					<div className="row">
 						<div className="col-4 col-md-1">
@@ -127,25 +136,25 @@ function About() {
 					</div>
 				</div>
 
-				<div className="my-4">
+				<div className="my-3">
 					<Text h3>Banco de Dados e Cloud Computing</Text>
 					<div className="row">
-						<div className="col-4 col-md-1">
+						<div className="col-5 col-md-1">
 							<i className="devicon-postgresql-plain-wordmark colored"></i>
 						</div>
-						<div className="col-4 col-md-1">
+						<div className="col-5 col-md-1">
 							<i className="devicon-mysql-plain-wordmark colored"></i>
 						</div>
-						<div className="col-4 col-md-1">
+						<div className="col-5 col-md-1">
 							<i className="devicon-sqlite-plain-wordmark colored"></i>
 						</div>
-						<div className="col-4 col-md-1">
+						<div className="col-5 col-md-1">
 							<i className="devicon-heroku-original-wordmark colored"></i>
 						</div>
 					</div>
 				</div>
 
-				<div className="my-4">
+				<div className="my-3">
 					<Text h3>Ferramentas</Text>
 					<div className="row">
 						<div className="col-4 col-md-1">

@@ -4,15 +4,32 @@ import React from "react";
 import { Text, Grid, Card } from "@geist-ui/core";
 
 // Router
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
+import { POSTS } from "../assets/posts";
 
 const Home = () => {
+	// const listPosts = POSTS.map((post, index) => {
+	// 	console.log(post)
+	// 	return (
+	// 		<Grid md={12} sm={24} justify="center" key={index}>
+	// 			<Link to={post.param}>
+	// 				<Card width="100%" hoverable>
+	// 					<Text h4 my={0}>
+	// 						{post.title}
+	// 					</Text>
+	// 					<Text>{post.description}</Text>
+	// 				</Card>
+	// 			</Link>
+	// 		</Grid>
+	// 	);
+	// });
+
 	return (
 		<div>
 			<Text h3>Artigos, anotações, códigos e tudo mais...</Text>
 
 			<Grid.Container gap={1.5}>
-				<Grid md={12} sm={24} justify="center">
+				{/* <Grid md={12} sm={24} justify="center">
 					<Card width="100%" hoverable>
 						<Text h4 my={0}>
 							Java Básico: uma visão geral
@@ -23,29 +40,19 @@ const Home = () => {
 					</Card>
 				</Grid>
 				<Grid md={12} sm={24} justify="center">
-					<Card width="100%" type="dark">
-						<Text h4 my={0}>
-							Geist UI React
-						</Text>
-						<Text>Modern and minimalist React UI library.</Text>
+					<Card width="100%">
+						<Link to>
+							<Text h4 my={0}>
+								Trabalhando com Ambientes Virtuais 🐍
+							</Text>
+							<Text>
+								Gerenciando Ambientes virtuais em Conda e
+								VirtualEnv
+							</Text>
+						</Link>
 					</Card>
-				</Grid>
-				<Grid md={12} sm={24} justify="center">
-					<Card width="100%" type="dark">
-						<Text h4 my={0}>
-							Geist UI React
-						</Text>
-						<Text>Modern and minimalist React UI library.</Text>
-					</Card>
-				</Grid>
-				<Grid md={12} sm={24} justify="center">
-					<Card width="100%" type="dark">
-						<Text h4 my={0}>
-							Geist UI React
-						</Text>
-						<Text>Modern and minimalist React UI library.</Text>
-					</Card>
-				</Grid>
+				</Grid> */}
+				{/* {listPosts} */}
 			</Grid.Container>
 		</div>
 	);
