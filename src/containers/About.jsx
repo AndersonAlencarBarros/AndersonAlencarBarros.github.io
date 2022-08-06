@@ -24,13 +24,13 @@ function About() {
 				</Text>
 			</section>
 
-			<section className="container display-4">
+			<section className="container display-3">
 				<div className="my-4">
 					<Text h3>Python</Text>
 					<div className="row">
 						<div className="col-4 col-md-1">
 							<i className="devicon-python-plain-wordmark colored"></i>
-						</div> 
+						</div>
 						<div className="col-4 col-md-1">
 							<i className="devicon-django-plain-wordmark colored"></i>
 						</div>
@@ -43,7 +43,9 @@ function About() {
 						<div className="col-4 col-md-1">
 							<i className="devicon-pandas-original-wordmark colored"></i>
 						</div>
-						
+						<div className="col-4 col-md-1">
+							<i className="devicon-jupyter-plain-wordmark colored"></i>
+						</div>
 					</div>
 				</div>
 
@@ -137,7 +139,7 @@ function About() {
 						<div className="col-4 col-md-1">
 							<i className="devicon-sqlite-plain-wordmark colored"></i>
 						</div>
-            <div className="col-4 col-md-1">
+						<div className="col-4 col-md-1">
 							<i className="devicon-heroku-original-wordmark colored"></i>
 						</div>
 					</div>
@@ -148,6 +150,10 @@ function About() {
 					<div className="row">
 						<div className="col-4 col-md-1">
 							<i className="devicon-vscode-plain-wordmark colored"></i>
+						</div>
+
+						<div className="col-4 col-md-1">
+							<i className="devicon-intellij-plain-wordmark colored"></i>
 						</div>
 					</div>
 				</div>

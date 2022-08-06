@@ -46,7 +46,7 @@ function Projects() {
 					<Card hoverable width="100%" height="100%">
 						<Text h4>PEV Pegada</Text>
 						<Text>
-							Aplicação para calcular sua Pegada de Carbono
+							Aplicação para calcular sua Pegada de Carbono.
 						</Text>
 
 						<Card.Footer>
@@ -56,13 +56,30 @@ function Projects() {
 				</Grid>
 				<Grid md={12} sm={24}>
 					<Card hoverable width="100%" height="100%">
-						<Text h4>PEV Pegada</Text>
+						<Text h4>Montador</Text>
 						<Text>
-							Aplicação para calcular sua Pegada de Carbono
+							Desenvolvimento de um montador (assembler) para uma
+							linguagem de montagem de uma CPU RISC simples.
 						</Text>
 
 						<Card.Footer>
-							<a href="https://escolaverde.org/pevpegada/">Ver</a>
+							<a href="https://github.com/AndersonAlencarBarros/Montador">
+								Ver no Github
+							</a>
+						</Card.Footer>
+					</Card>
+				</Grid>
+				<Grid md={12} sm={24}>
+					<Card hoverable width="100%" height="100%">
+						<Text h4>Ramon</Text>
+						<Text>
+							Desenvolvimento de um ChatBot usando DialogFlow, Django e comunicação via Webhook.
+						</Text>
+
+						<Card.Footer>
+							<a href="https://github.com/AndersonAlencarBarros/Ramon">
+								Ver no Github
+							</a>
 						</Card.Footer>
 					</Card>
 				</Grid>
