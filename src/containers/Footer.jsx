@@ -5,13 +5,11 @@ import { Text, Spacer } from "@geist-ui/core";
 
 function Footer() {
 	return (
-		<Page.Footer>
+		<Page.Footer width="80%">
 			<Spacer h={2} />
 			<div className="d-flex justify-content-center mb-1">
 				<Text small i>
-					Desenvolvido usando{" "}
-					<a href="https://pt-br.reactjs.org/">React</a> e{" "}
-					<a href="https://geist-ui.dev/en-us">Geist</a>.
+					Desenvolvido usando <a href="https://pt-br.reactjs.org/"> React</a> e <a href="https://geist-ui.dev/en-us">Geist</a>.
 				</Text>
 			</div>
 		</Page.Footer>

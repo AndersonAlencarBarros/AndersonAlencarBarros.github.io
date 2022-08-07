@@ -5,43 +5,35 @@ import { Text, Grid, Card } from "@geist-ui/core";
 
 // Router
 import { Link } from "react-router-dom";
-import { POSTS } from "../assets/posts";
 
 const Home = () => {
-	// const listPosts = POSTS.map((post, index) => {
-	// 	console.log(post)
-	// 	return (
-	// 		<Grid md={12} sm={24} justify="center" key={index}>
-	// 			<Link to={post.param}>
-	// 				<Card width="100%" hoverable>
-	// 					<Text h4 my={0}>
-	// 						{post.title}
-	// 					</Text>
-	// 					<Text>{post.description}</Text>
-	// 				</Card>
-	// 			</Link>
-	// 		</Grid>
-	// 	);
-	// });
-
 	return (
 		<div>
 			<Text h3>Artigos, anotações, códigos e tudo mais...</Text>
 
 			<Grid.Container gap={1.5}>
-				{/* <Grid md={12} sm={24} justify="center">
+				<Grid md={12} sm={24} justify="center">
 					<Card width="100%" hoverable>
-						<Text h4 my={0}>
-							Java Básico: uma visão geral
-						</Text>
-						<Text>
-							Anotações do curso de Java do Inter Java Bootcamp.
-						</Text>
+						<Link
+							to="/post/linux-introducao"
+							className="text-reset"
+						>
+							<Text h4 my={0}>
+								Linux: Introdução ao sistema operacional 
+							</Text>
+							<Text>
+								Conceitos e comandos básicos do Linux.
+							</Text>
+						</Link>
 					</Card>
 				</Grid>
+
 				<Grid md={12} sm={24} justify="center">
-					<Card width="100%">
-						<Link to>
+					<Card width="100%" hoverable>
+						<Link
+							to="/post/trabalhando-com-ambientes-virtuais"
+							className="text-reset"
+						>
 							<Text h4 my={0}>
 								Trabalhando com Ambientes Virtuais 🐍
 							</Text>
@@ -51,8 +43,7 @@ const Home = () => {
 							</Text>
 						</Link>
 					</Card>
-				</Grid> */}
-				{/* {listPosts} */}
+				</Grid>
 			</Grid.Container>
 		</div>
 	);

@@ -9,25 +9,32 @@ import Footer from "./containers/Footer";
 import About from "./containers/About";
 import Projects from "./containers/Projects";
 import NavBar from "./containers/NavBar";
-import Post from "./containers/Post";
+import CondaPost from "./posts/conda/CondaPost";
+import LinuxIntroducaoPost from "./posts/LinuxIntroducao/LinuxIntroducaoPost";
 
 // CSS
-import "./assets/style.css"
+import "./assets/style.css";
 
 // React Router
 import { Route, Routes } from "react-router-dom";
 
+// className="p-0 min-vw-75"
+// col-12 col-md-6
+// className="p-1 m-auto min-vw-100"
+// style={{minWidth: "90vw", maxWidth: "50vw", padding: "0px", margin: "0px"}}
+
 function App() {
 	return (
-		<Page className="p-5 min-vw-100">
+		<Page width="100%">
 			<NavBar />
 
-			<Page.Content id="page-content">
+			<Page.Content>
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/projects" element={<Projects />} />
-					<Route path="/post/:post" element={<Post />} />
+					<Route path="/post/trabalhando-com-ambientes-virtuais" element={<CondaPost />} />
+					<Route path="/post/linux-introducao" element={<LinuxIntroducaoPost />} />
 				</Routes>
 			</Page.Content>
 
