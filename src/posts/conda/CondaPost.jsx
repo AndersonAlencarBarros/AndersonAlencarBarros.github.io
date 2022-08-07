@@ -9,9 +9,9 @@ function CondaPost() {
 	const reactElement = htmlToReactParser.parse(condaHTML);
 
 	return (
-		<>
+		<div>
 			{reactElement}
-		</>
+		</div>
 	);
 }
 

@@ -9,9 +9,9 @@ function LinuxIntroducaoPost() {
 	const reactElement = htmlToReactParser.parse(linuxIntroHTML);
 
 	return (
-		<>
+		<div>
 			{reactElement}
-		</>
+		</div>
 	);
 }
 
