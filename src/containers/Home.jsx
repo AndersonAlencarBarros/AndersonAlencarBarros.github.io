@@ -27,7 +27,7 @@ const Home = () => {
 						</Link>
 					</Card>
 				</Grid>
-
+				
 				<Grid md={12} sm={24} justify="center">
 					<Card width="100%" hoverable>
 						<Link
@@ -40,6 +40,22 @@ const Home = () => {
 							<Text>
 								Gerenciando Ambientes virtuais em Conda e
 								VirtualEnv
+							</Text>
+						</Link>
+					</Card>
+				</Grid>
+
+				<Grid md={12} sm={24} justify="center">
+					<Card width="100%" hoverable>
+						<Link
+							to="/post/mineracao-de-dados"
+							className="text-reset"
+						>
+							<Text h4 my={0}>
+								Conceitos básicos de Mineração de Dados
+							</Text>
+							<Text>
+							O processo de descobrir de forma automatizada informações úteis em grandes conjuntos de dados. 
 							</Text>
 						</Link>
 					</Card>

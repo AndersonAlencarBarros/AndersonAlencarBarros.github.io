@@ -6,32 +6,34 @@ import { Text } from "@geist-ui/core";
 function About() {
 	return (
 		<>
-			<Text h1 className="fs-1">
-				Sobre
-			</Text>
-
-			<div className="container fs-4 col-12 col-md-6">
-				<Text p>
-					Pernambucano, graduando em Engenharia da Computação e
-					desenvolvedor, curioso, introvertido e fã dos Senhor dos
-					Anéis.
+			<section className="container-fluid">
+				<Text h1 className="fs-1">
+					Sobre
 				</Text>
 
-				<Text p>
-					Interessado em Desenvolvimento em Back-end, Chatbots,
-					Inteligência Artificial, Ciência de Dados e Engenharia de
-					Dados, Linux e IOT.
-				</Text>
-			</div>
+				<div className="container fs-4 col-12 col-md-6">
+					<Text p>
+						Pernambucano, graduando em Engenharia da Computação e
+						desenvolvedor, curioso, introvertido e fã dos Senhor dos
+						Anéis.
+					</Text>
 
-			<section className="container-fluid display-3">
-			<Text h1 className="fs-1">
-				Tecnologias
-			</Text>
+					<Text p>
+						Interessado em Desenvolvimento em Back-end, Chatbots,
+						Inteligência Artificial, Ciência de Dados e Engenharia
+						de Dados, Linux e IOT.
+					</Text>
+				</div>
+			</section>
+
+			<section className="container-fluid">
+				<Text h1 className="fs-1">
+					Tecnologias
+				</Text>
 
 				<div className="my-3">
 					<Text h3>Python</Text>
-					<div className="row">
+					<div className="row display-3">
 						<div className="col-4 col-md-1">
 							<i className="devicon-python-plain-wordmark colored"></i>
 						</div>
@@ -55,7 +57,7 @@ function About() {
 
 				<div className="my-3">
 					<Text h3>Desenvolvimento Web</Text>
-					<div className="row">
+					<div className="row display-3">
 						<div className="col-4 col-md-1">
 							<i className="devicon-javascript-plain colored"></i>
 						</div>
@@ -79,7 +81,7 @@ function About() {
 
 				<div className="my-3">
 					<Text h3>Java</Text>
-					<div className="row">
+					<div className="row display-3">
 						<div className="col-4 col-md-1">
 							<i className="devicon-java-plain-wordmark colored"></i>
 						</div>
@@ -94,11 +96,11 @@ function About() {
 
 				<div className="my-3">
 					<Text h3>Linux, Arduino e C/C++ </Text>
-					<div className="row">
+					<div className="row display-3">
 						<div className="col-5 col-md-1">
 							<i className="devicon-linux-plain colored"></i>
 						</div>
-            <div className="col-5 col-md-1">
+						<div className="col-5 col-md-1">
 							<i className="devicon-arduino-plain-wordmark colored"></i>
 						</div>
 						<div className="col-5 col-md-1">
@@ -107,14 +109,12 @@ function About() {
 						<div className="col-5 col-md-1">
 							<i className="devicon-cplusplus-plain-wordmark colored"></i>
 						</div>
-
-						
 					</div>
 				</div>
 
 				<div className="my-3">
 					<Text h3>Git e Github</Text>
-					<div className="row">
+					<div className="row display-3">
 						<div className="col-4 col-md-1">
 							<i className="devicon-git-plain-wordmark colored"></i>
 						</div>
@@ -126,7 +126,7 @@ function About() {
 
 				<div className="my-3">
 					<Text h3>Markdown e LateX</Text>
-					<div className="row">
+					<div className="row display-3">
 						<div className="col-4 col-md-1">
 							<i className="devicon-markdown-original colored"></i>
 						</div>
@@ -138,7 +138,7 @@ function About() {
 
 				<div className="my-3">
 					<Text h3>Banco de Dados e Cloud Computing</Text>
-					<div className="row">
+					<div className="row display-3">
 						<div className="col-5 col-md-1">
 							<i className="devicon-postgresql-plain-wordmark colored"></i>
 						</div>
@@ -156,7 +156,7 @@ function About() {
 
 				<div className="my-3">
 					<Text h3>Ferramentas</Text>
-					<div className="row">
+					<div className="row display-3">
 						<div className="col-4 col-md-1">
 							<i className="devicon-vscode-plain-wordmark colored"></i>
 						</div>
