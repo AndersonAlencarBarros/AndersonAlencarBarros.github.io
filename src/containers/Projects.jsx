@@ -10,7 +10,7 @@ function Projects() {
 				Projetos & Experiências
 			</Text>
 
-			<Grid.Container gap={1} justify="center" className="mt-4">
+			<Grid.Container gap={1.5} justify="center" className="mt-4">
 				<Grid md={12} sm={24}>
 					<Card hoverable width="100%" height="100%">
 						<Text h4>Book Store API</Text>
