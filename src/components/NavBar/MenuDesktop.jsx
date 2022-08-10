@@ -1,7 +1,7 @@
 import React from "react";
 
 // Geist
-import { Text, Grid, Card, Display } from "@geist-ui/core";
+import { Text, Grid, Card, User } from "@geist-ui/core";
 import Github from "@geist-ui/icons/github";
 import Linkedin from "@geist-ui/icons/linkedin";
 
@@ -13,9 +13,14 @@ function MenuDesktop() {
 		<Grid.Container justify="center" xs={0} md={24}>
 			<Grid.Container justify="center">
 				<Link to="/" className="text-reset">
-					<Grid>
-						<Text h2>Anderson de Alencar Barros</Text>
-					</Grid>
+					{/* <div className="row"> */}
+						{/* <div className="col-10"> */}
+							<Text h3>Anderson de Alencar Barros</Text>
+						{/* </div> */}
+						{/* <div className="col-2">
+							<User src="/images/avatar.png" />
+						</div> */}
+					{/* </div> */}
 				</Link>
 			</Grid.Container>
 

@@ -70,9 +70,9 @@ function About() {
 						<div className="col-4 col-md-1">
 							<i className="devicon-react-plain-wordmark colored"></i>
 						</div>
-						<div className="col-4 col-md-1">
+						{/* <div className="col-4 col-md-1">
 							<i className="devicon-redux-original colored"></i>
-						</div>
+						</div> */}
 						<div className="col-4 col-md-1">
 							<i className="devicon-materialui-plain colored"></i>
 						</div>
@@ -142,9 +142,9 @@ function About() {
 						<div className="col-5 col-md-1">
 							<i className="devicon-postgresql-plain-wordmark colored"></i>
 						</div>
-						<div className="col-5 col-md-1">
+						{/* <div className="col-5 col-md-1">
 							<i className="devicon-mysql-plain-wordmark colored"></i>
-						</div>
+						</div> */}
 						<div className="col-5 col-md-1">
 							<i className="devicon-sqlite-plain-wordmark colored"></i>
 						</div>
