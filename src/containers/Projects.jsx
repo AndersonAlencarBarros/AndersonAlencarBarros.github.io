@@ -4,6 +4,8 @@ import React from "react";
 import { Text, Grid, Card, Image } from "@geist-ui/core";
 import PEVPegada from "../assets/img/PEVPEgada.png";
 import bookstore from "../assets/img/bookstore_post_book.gif";
+import ramon from "../assets/img/Ramon-Arquitetura.png";
+import assembler from "../assets/img/assembler.png";
 
 function Projects() {
 	return (
@@ -31,7 +33,10 @@ function Projects() {
 							</Text>
 
 							<Card.Footer disableAutoMargin>
-								<a href="https://github.com/AndersonAlencarBarros/bookstoreAPI">
+								<a
+									href="https://github.com/AndersonAlencarBarros/bookstoreAPI"
+									target={"_blank"}
+								>
 									Ver no Github
 								</a>
 							</Card.Footer>
@@ -49,7 +54,10 @@ function Projects() {
 							</Text>
 
 							<Card.Footer disableAutoMargin>
-								<a href="https://github.com/AndersonAlencarBarros/IC">
+								<a
+									href="https://github.com/AndersonAlencarBarros/IC"
+									target={"_blank"}
+								>
 									Ver no Github
 								</a>
 							</Card.Footer>
@@ -84,6 +92,12 @@ function Projects() {
 					</div>
 					<div className="col-12 col-md-6 mb-4">
 						<Card hoverable>
+							<Image
+								src={assembler}
+								height="150px"
+								width="400px"
+								draggable={false}
+							/>
 							<Text h4>Montador</Text>
 							<Text>
 								Desenvolvimento de um montador (assembler) para
@@ -92,7 +106,10 @@ function Projects() {
 							</Text>
 
 							<Card.Footer disableAutoMargin>
-								<a href="https://github.com/AndersonAlencarBarros/Montador">
+								<a
+									href="https://github.com/AndersonAlencarBarros/Montador"
+									target={"_blank"}
+								>
 									Ver no Github
 								</a>
 							</Card.Footer>
@@ -103,6 +120,12 @@ function Projects() {
 				<div className="row">
 					<div className="col-12 col-md-6 mb-4">
 						<Card hoverable>
+							<Image
+								src={ramon}
+								height="150px"
+								width="400px"
+								draggable={false}
+							/>
 							<Text h4>Ramon</Text>
 							<Text>
 								Desenvolvimento de um ChatBot usando DialogFlow,
@@ -110,7 +133,10 @@ function Projects() {
 							</Text>
 
 							<Card.Footer className="h-25">
-								<a href="https://github.com/AndersonAlencarBarros/Ramon">
+								<a
+									href="https://github.com/AndersonAlencarBarros/Ramon"
+									target={"_blank"}
+								>
 									Ver no Github
 								</a>
 							</Card.Footer>
@@ -119,9 +145,14 @@ function Projects() {
 					<div className="col-12 col-md-6 mb-4">
 						<Card hoverable>
 							<Text h4>SGIO</Text>
-							<Text type="secondary">Sistema de Diagnóstico do Grau de Inovação das Organizações</Text>
+							<Text type="secondary">
+								Sistema de Diagnóstico do Grau de Inovação das
+								Organizações
+							</Text>
 							<Text>
-								Projeto de pesquisa para desenvolvimento de uma metodologia e plataforma para medir o grau de inovação das organizações.
+								Projeto de pesquisa para desenvolvimento de uma
+								metodologia e plataforma para medir o grau de
+								inovação das organizações.
 							</Text>
 
 							{/* <Card.Footer className="h-25">
