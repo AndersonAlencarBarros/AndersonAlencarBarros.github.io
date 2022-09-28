@@ -1,7 +1,6 @@
 import React from "react";
 
-import { linuxIntroHTML } from "./linux";
-import "../../assets/typora-css.css";
+import { linuxIntroHTML } from "./linux"; 
 
 function LinuxIntroducaoPost() {
   const HtmlToReactParser = require("html-to-react").Parser;

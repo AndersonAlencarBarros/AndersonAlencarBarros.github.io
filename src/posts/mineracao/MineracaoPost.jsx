@@ -1,7 +1,6 @@
 import React from "react";
 
-import { mineracaoHTML } from "./mineracao";
-import "../../assets/typora-css.css";
+import { mineracaoHTML } from "./mineracao"; 
 
 function MineracaoPost() {
 	const HtmlToReactParser = require("html-to-react").Parser;
