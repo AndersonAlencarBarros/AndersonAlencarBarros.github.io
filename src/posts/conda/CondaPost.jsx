@@ -1,7 +1,6 @@
 import React from "react";
 
-import { condaHTML } from "./conda.js";
-import "../../assets/typora-css.css";
+import { condaHTML } from "./conda.js"; 
 
 function CondaPost() {
   const HtmlToReactParser = require("html-to-react").Parser;

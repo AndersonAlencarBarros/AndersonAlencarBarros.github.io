@@ -14,16 +14,11 @@ import LinuxIntroducaoPost from "./posts/LinuxIntroducao/LinuxIntroducaoPost";
 import MineracaoPost from "./posts/mineracao/MineracaoPost";
 
 // CSS
-import "./assets/style.css";
-import "./assets/typora-css.css";
+import "./assets/style/style.css";
+import "./assets/style/typora-css.css";
 
 // React Router
 import { Route, Routes } from "react-router-dom";
-
-// className="p-0 min-vw-75"
-// col-12 col-md-6
-// className="p-1 m-auto min-vw-100"
-// style={{minWidth: "90vw", maxWidth: "50vw", padding: "0px", margin: "0px"}}
 
 function App() {
 	return (
