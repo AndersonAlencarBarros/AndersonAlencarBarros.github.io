@@ -78,6 +78,9 @@ function Skills() {
 							<div className="">
 								<Text span>Git</Text>
 							</div>
+							<div className="">
+								<Text span>Postman</Text>
+							</div>
 						</div>
 					</div>
 				</div>
