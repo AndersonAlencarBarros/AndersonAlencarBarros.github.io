@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a76a152.css",
-    "main.js": "/static/js/main.afe42ea4.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "main.css": "/static/css/main.ca421e8b.css",
+    "main.js": "/static/js/main.b1fd7b71.js",
+    "static/js/787.ae0a3de1.chunk.js": "/static/js/787.ae0a3de1.chunk.js",
     "static/media/Ramon-Arquitetura.png": "/static/media/Ramon-Arquitetura.18314eca947c2a234a12.png",
     "static/media/bookstore_post_book.gif": "/static/media/bookstore_post_book.0063b02237963ec660cf.gif",
     "static/media/PEVPEgada.png": "/static/media/PEVPEgada.bc9bf27264106d6f87bc.png",
     "static/media/assembler.png": "/static/media/assembler.06cf432959edfe8e807b.png",
     "index.html": "/index.html",
-    "main.9a76a152.css.map": "/static/css/main.9a76a152.css.map",
-    "main.afe42ea4.js.map": "/static/js/main.afe42ea4.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.ca421e8b.css.map": "/static/css/main.ca421e8b.css.map",
+    "main.b1fd7b71.js.map": "/static/js/main.b1fd7b71.js.map",
+    "787.ae0a3de1.chunk.js.map": "/static/js/787.ae0a3de1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a76a152.css",
-    "static/js/main.afe42ea4.js"
+    "static/css/main.ca421e8b.css",
+    "static/js/main.b1fd7b71.js"
   ]
 }
