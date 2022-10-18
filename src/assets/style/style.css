@@ -6,9 +6,9 @@
 
 html,
 body {
-	/* font-family: 'Encode Sans', sans-serif; */
 	height: 100%;
 	min-height: 100vh;
+	font-family: 'Sora' !important;
 }
 
 .colored {
@@ -19,20 +19,3 @@ body {
 #write {
 	padding: 0 !important;
 }
-
-/* h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	display: inline !important;
-	word-break: initial !important;
-} */
-
-/* h1 {
-	font-size: 3vw !important;
-}
-h2 {
-	font-size: 2vh !important;
-}  */

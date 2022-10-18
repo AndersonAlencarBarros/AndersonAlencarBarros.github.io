@@ -13,11 +13,11 @@ function NavBar() {
 
 	return (
 		<Page.Header className="">
-			<Gaveta visible={visible} setVisible={setVisible} />
+			 
 
 			<Spacer h={1}/>
             <MenuDesktop />
-			<MenuMobile setVisible={setVisible} />
+			{/* <MenuMobile setVisible={setVisible} /> */}
 			
 		</Page.Header>
 	);

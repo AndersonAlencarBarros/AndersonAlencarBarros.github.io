@@ -15,7 +15,7 @@ import MineracaoPost from "./posts/mineracao/MineracaoPost";
 
 // CSS
 import "./assets/style/style.css";
-import "./assets/style/typora-css.css";
+// import "./assets/style/typora-css.css";
 
 // React Router
 import { Route, Routes } from "react-router-dom";
