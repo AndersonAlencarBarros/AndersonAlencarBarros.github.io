@@ -5,21 +5,19 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 // Geist
-import { GeistProvider, CssBaseline } from "@geist-ui/core";
+import { CssBaseline } from "@geist-ui/core";
 
 // Router
-import { BrowserRouter as Router } from "react-router-dom";
- 
+import { BrowserRouter } from "react-router-dom";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
 	<React.StrictMode>
-		<GeistProvider>
+		<BrowserRouter>
 			<CssBaseline />
-			<Router>
-				<App />
-			</Router>
-		</GeistProvider>
+			<App />
+		</BrowserRouter>
 	</React.StrictMode>
 );
 

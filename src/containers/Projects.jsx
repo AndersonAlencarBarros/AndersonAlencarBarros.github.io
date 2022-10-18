@@ -1,7 +1,7 @@
 import React from "react";
 
 // Geist
-import { Text, Grid, Card, Image } from "@geist-ui/core";
+import { Text, Card, Image } from "@geist-ui/core";
 import PEVPegada from "../assets/img/PEVPEgada.png";
 import bookstore from "../assets/img/bookstore_post_book.gif";
 import ramon from "../assets/img/Ramon-Arquitetura.png";
@@ -34,6 +34,7 @@ function Projects() {
 								<a
 									href="https://github.com/AndersonAlencarBarros/Ramon"
 									target={"_blank"}
+									rel="noreferrer"
 								>
 									Ver no Github
 								</a>
@@ -75,6 +76,7 @@ function Projects() {
 								<a
 									href="https://escolaverde.org/pevpegada/"
 									target={"_blank"}
+									rel="noreferrer"
 								>
 									Ver
 								</a>
@@ -100,6 +102,7 @@ function Projects() {
 								<a
 									href="https://github.com/AndersonAlencarBarros/Montador"
 									target={"_blank"}
+									rel="noreferrer"
 								>
 									Ver no Github
 								</a>
@@ -129,6 +132,7 @@ function Projects() {
 								<a
 									href="https://github.com/AndersonAlencarBarros/bookstoreAPI"
 									target={"_blank"}
+									rel="noreferrer"
 								>
 									Ver no Github
 								</a>
@@ -150,6 +154,7 @@ function Projects() {
 								<a
 									href="https://github.com/AndersonAlencarBarros/IC"
 									target={"_blank"}
+									rel="noreferrer"
 								>
 									Ver no Github
 								</a>
