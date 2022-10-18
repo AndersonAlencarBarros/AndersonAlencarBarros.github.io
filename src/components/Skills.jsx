@@ -10,7 +10,6 @@ function Skills() {
 				<div className="row d-flex justify-content-center">
 					<div className=" mt-5 col-12 col-md-3">
 						<Text h3>Linguagens</Text>
-
 						<div>
 							<div className="row mt-2">
 								<Text span>Python</Text>
@@ -30,11 +29,14 @@ function Skills() {
 						</div>
 					</div>
 
-					<div className=" mt-5 col-12 col-md-3">
+					<div className="mt-5 col-12 col-md-3">
 						<Text h3>Front-End</Text>
 						<div>
 							<div className="">
 								<Text span>ReactJs</Text>
+							</div>
+							<div className="">
+								<Text span>Material UI</Text>
 							</div>
 							<div className="">
 								<Text span>HTML</Text>

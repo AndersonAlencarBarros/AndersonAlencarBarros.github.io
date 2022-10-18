@@ -8,5 +8,9 @@ html,
 body {
 	height: 100%;
 	min-height: 100vh;
-	font-family: 'Sora' !important;
-} 
+	font-family: "Sora" !important;
+}
+
+::selection {
+	background-color: #d4ebf2 !important;
+}

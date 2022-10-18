@@ -4,12 +4,12 @@ import { Text } from "@geist-ui/core";
 function TextAbout() {
 	return (
 		<>
-			<section className="container-fluid">
-				<Text h2>
+			<section className="container-fluid d-flex justify-content-center">
+				{/* <Text h2>
 					Sobre
-				</Text>
+				</Text> */}
 
-				<div className="col-12 col-md-4">
+				<div className="col-12 col-md-4 ">
 					<Text blockquote>
 						Pernambucano, graduando em Engenharia da Computação pela UNIVASF e desenvolvedor, curioso e fã dos Senhor dos Anéis.
 					</Text>
