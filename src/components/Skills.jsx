@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, Note, Button } from "@geist-ui/core";
+import { Text } from "@geist-ui/core";
 
 function Skills() {
 	return (
@@ -7,8 +7,8 @@ function Skills() {
 			<section className="container-fluid my-5">
 				<Text h2>Habilidades</Text>
 
-				<div className="row">
-					<div className=" mt-5 col-12 col-md-2">
+				<div className="row d-flex justify-content-center">
+					<div className=" mt-5 col-12 col-md-3">
 						<Text h3>Linguagens</Text>
 
 						<div>
@@ -30,9 +30,9 @@ function Skills() {
 						</div>
 					</div>
 
-					<div className=" mt-5 col-12 col-md-2">
+					<div className=" mt-5 col-12 col-md-3">
 						<Text h3>Front-End</Text>
-						<div className="row">
+						<div>
 							<div className="">
 								<Text span>ReactJs</Text>
 							</div>
@@ -45,9 +45,9 @@ function Skills() {
 						</div>
 					</div>
 
-					<div className="mt-5 col-12 col-md-2">
+					<div className="mt-5 col-12 col-md-3">
 						<Text h3>Back-End</Text>
-						<div className="row">
+						<div>
 							<div className="">
 								<Text span>Django</Text>
 							</div>
@@ -59,10 +59,12 @@ function Skills() {
 							</div>
 						</div>
 					</div>
+				</div>
 
+				<div className="row d-flex justify-content-center">
 					<div className="mt-5 col-12 col-md-3">
 						<Text h3>Banco de Dados</Text>
-						<div className="row">
+						<div>
 							<div className="">
 								<Text span>PostgreSQL</Text>
 							</div>
@@ -70,11 +72,11 @@ function Skills() {
 								<Text span>MongoDB (estudando...)</Text>
 							</div>
 						</div>
-					</div>  
+					</div>
 
 					<div className="mt-5 col-12 col-md-1">
 						<Text h3>Ferramentas</Text>
-						<div className="row">
+						<div>
 							<div className="">
 								<Text span>Git</Text>
 							</div>
