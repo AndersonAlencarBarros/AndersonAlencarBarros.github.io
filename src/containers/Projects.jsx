@@ -19,22 +19,20 @@ function Projects() {
 					<div className="col-12 col-md-6 mb-4">
 						<Card hoverable>
 							<Image
-								src={bookstore}
-								height="300px"
+								src={ramon}
+								height="150px"
 								width="400px"
 								draggable={false}
 							/>
-							<Text h4>Book Store API</Text>
+							<Text h4>Ramon</Text>
 							<Text>
-								Desenvolvimento de uma simples API REST para uma
-								Livraria usando Java, Spring Boot e Postman.
-								Projeto desenvolvido a partir do Inter Java
-								Bootcamp.
+								Desenvolvimento de um ChatBot usando DialogFlow,
+								Django e comunicação via Webhook.
 							</Text>
 
-							<Card.Footer disableAutoMargin>
+							<Card.Footer className="h-25">
 								<a
-									href="https://github.com/AndersonAlencarBarros/bookstoreAPI"
+									href="https://github.com/AndersonAlencarBarros/Ramon"
 									target={"_blank"}
 								>
 									Ver no Github
@@ -42,25 +40,18 @@ function Projects() {
 							</Card.Footer>
 						</Card>
 					</div>
-
 					<div className="col-12 col-md-6 mb-4">
 						<Card hoverable>
-							<Text h4>Inteligência Computacional</Text>
-							<Text>
-								Aplicação dos conceitos de Inteligência
-								Artificial, tais como Random Forest, Redes
-								Neurais, além de pré processamento dos dados e
-								avaliação de desempenho.
+							<Text h4>SGIO</Text>
+							<Text type="secondary">
+								Sistema de Diagnóstico do Grau de Inovação das
+								Organizações
 							</Text>
-
-							<Card.Footer disableAutoMargin>
-								<a
-									href="https://github.com/AndersonAlencarBarros/IC"
-									target={"_blank"}
-								>
-									Ver no Github
-								</a>
-							</Card.Footer>
+							<Text>
+								Projeto de pesquisa para desenvolvimento de uma
+								metodologia e plataforma para medir o grau de
+								inovação das organizações.
+							</Text>
 						</Card>
 					</div>
 				</div>
@@ -121,20 +112,22 @@ function Projects() {
 					<div className="col-12 col-md-6 mb-4">
 						<Card hoverable>
 							<Image
-								src={ramon}
-								height="150px"
+								src={bookstore}
+								height="300px"
 								width="400px"
 								draggable={false}
 							/>
-							<Text h4>Ramon</Text>
+							<Text h4>Book Store API</Text>
 							<Text>
-								Desenvolvimento de um ChatBot usando DialogFlow,
-								Django e comunicação via Webhook.
+								Desenvolvimento de uma simples API REST para uma
+								Livraria usando Java, Spring Boot e Postman.
+								Projeto desenvolvido a partir do Inter Java
+								Bootcamp.
 							</Text>
 
-							<Card.Footer className="h-25">
+							<Card.Footer disableAutoMargin>
 								<a
-									href="https://github.com/AndersonAlencarBarros/Ramon"
+									href="https://github.com/AndersonAlencarBarros/bookstoreAPI"
 									target={"_blank"}
 								>
 									Ver no Github
@@ -142,24 +135,25 @@ function Projects() {
 							</Card.Footer>
 						</Card>
 					</div>
+
 					<div className="col-12 col-md-6 mb-4">
 						<Card hoverable>
-							<Text h4>SGIO</Text>
-							<Text type="secondary">
-								Sistema de Diagnóstico do Grau de Inovação das
-								Organizações
-							</Text>
+							<Text h4>Inteligência Computacional</Text>
 							<Text>
-								Projeto de pesquisa para desenvolvimento de uma
-								metodologia e plataforma para medir o grau de
-								inovação das organizações.
+								Aplicação dos conceitos de Inteligência
+								Artificial, tais como Random Forest, Redes
+								Neurais, além de pré processamento dos dados e
+								avaliação de desempenho.
 							</Text>
 
-							{/* <Card.Footer className="h-25">
-								<a href="https://github.com/AndersonAlencarBarros/Ramon">
+							<Card.Footer disableAutoMargin>
+								<a
+									href="https://github.com/AndersonAlencarBarros/IC"
+									target={"_blank"}
+								>
 									Ver no Github
 								</a>
-							</Card.Footer> */}
+							</Card.Footer>
 						</Card>
 					</div>
 				</div>

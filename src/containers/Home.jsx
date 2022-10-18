@@ -6,12 +6,20 @@ import { Text, Grid, Card } from "@geist-ui/core";
 // Router
 import { Link } from "react-router-dom";
 
+import TextAbout from "../components/About/TextAbout";
+import Skills from "../components/About/Skills";
+import Projects from './Projects'
+
 const Home = () => {
 	return (
 		<div>
-			<Text h3>Artigos, anotações, códigos e tudo mais...</Text>
+			{/* <Text h3>Artigos, anotações, códigos e tudo mais...</Text> */}
 
-			<Grid.Container gap={1.5} justify="center">
+			<TextAbout />
+			<Skills />
+			<Projects />
+
+			{/* <Grid.Container gap={1.5} justify="center">
 				<Grid md={6} sm={24}>
 					<Card width="100%" hoverable>
 						<Link
@@ -59,7 +67,7 @@ const Home = () => {
 						</Link>
 					</Card>
 				</Grid>
-			</Grid.Container>
+			</Grid.Container> */}
 		</div>
 	);
 };
