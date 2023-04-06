@@ -8,7 +8,7 @@ function Footer() {
 		<>
 			<Page.Footer width="90%">
 				<Text small i className="d-flex justify-content-center mb-2">
-					&copy; Anderson Alencar 2022
+					&copy; Anderson Alencar 2023
 				</Text>
 			</Page.Footer>
 		</>
